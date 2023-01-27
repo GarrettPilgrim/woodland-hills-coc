@@ -5,15 +5,15 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 publish_mode: editorial_workflow
 collections:
   - name: "pages"
-      label: "Pages"
-      files:
-      - label: "Home"
-        name: "home"
-        file: "content/home.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string"}
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown"}
+    label: "Pages"
+    files:
+    - label: "Home"
+      name: "home"
+      file: "content/home.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
