@@ -1,7 +1,7 @@
 import Nav from "./nav/Nav";
 
 type Props = {
-  children: JSX.Element,
+  children?: React.ReactNode,
 }
 
 export default function Layout({ children }: Props) {
