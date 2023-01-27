@@ -1,0 +1,25 @@
+@use "../../styles/base.scss";
+
+.container {
+  font-size: base.$small-header;
+  font-family: base.$header-fonts;
+
+  nav {
+    align-items: center;
+    background: purple;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 50%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
