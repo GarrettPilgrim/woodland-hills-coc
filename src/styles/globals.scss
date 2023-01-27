@@ -17,9 +17,20 @@ body {
   overflow-x: hidden;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: base.$header-fonts;
+}
+
+h1 {
   font-size: base.$big-header;
+}
+
+h2 {
+  font-size: base.$medium-header;
+}
+
+h3 {
+  font-size: base.$small-header;
 }
 
 p {
