@@ -1,6 +1,10 @@
 import Nav from "./nav/Nav";
 
-export default function Layout({ children }) {
+type Props = {
+  children: JSX.Element,
+}
+
+export default function Layout({ children }: Props) {
   return(
     <>
       <Nav />
