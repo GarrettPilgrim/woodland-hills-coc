@@ -1,3 +1,5 @@
+@use "base";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,12 +8,23 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 10px;
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+h1 {
+  font-family: base.$header-fonts;
+  font-size: base.$big-header;
+}
+
+p {
+  font-family: base.$body-fonts;
+  font-size: base.$paragraph;
 }
 
 @media (prefers-color-scheme: dark) {

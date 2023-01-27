@@ -1,11 +1,21 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.scss'
+import Head from "next/head";
+import Image from "next/image";
+import { Anton, Noto_Sans } from "@next/font/google";
+import { attributes, react as HomeContent } from "../content/home.md";
+import styles from "@/styles/Home.module.scss";
 
-const inter = Inter({ subsets: ['latin'] })
+const anton = Anton({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+const noto_sans = Noto_Sans({
+  weight: "300",
+  subsets: ["latin"],
+});
 
 export default function Home() {
+  let { title } = attributes;
   return (
     <>
       <Head>
@@ -15,8 +25,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Woodland Hills Church</h1>
+        <h1>{title}</h1>
+        <HomeContent />
       </main>
     </>
-  )
+  );
 }
