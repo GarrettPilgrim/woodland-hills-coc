@@ -1,3 +1,4 @@
+// Typography
 $header-fonts: "Anton", serif;
 $body-fonts: "Noto Sans", sans-serif;
 
@@ -6,3 +7,19 @@ $medium-header: clamp(2.2rem, 5vw + 1rem, 5.2rem);
 $small-header: clamp(1.2rem, 5vw + 1rem, 2.2rem);
 $paragraph: 1.6rem;
 $button-font-size: 2rem;
+
+// Colors
+$dark: #000000;
+$light: #ffffff;
+$primary: blue;
+$secondary: rgb(142, 142, 193);
+$accent: rgb(246, 131, 131);
+
+// Effects
+$shadow: -8px 12px 0px
+  rgba(
+    $color: $dark,
+    $alpha: 1,
+  );
+$border-light: 3px solid $light;
+$border-dark: 3px solid $dark;

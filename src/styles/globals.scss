@@ -46,6 +46,12 @@ p {
   margin-bottom: 2rem;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

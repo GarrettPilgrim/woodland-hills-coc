@@ -6,17 +6,18 @@
   display: flex;
   flex-wrap: wrap;
   font-family: base.$body-fonts;
-  justify-content: space-evenly;
-  position: absolute;
-  width: 100vw;
-  margin: 5rem 1rem;
   gap: 4rem;
+  justify-content: space-evenly;
+  margin: 5rem 1rem;
+  position: relative;
+  width: 100vw;
+
   div {
     max-width: 60ch;
   }
   a {
-    font-size: base.$paragraph;
     display: block;
+    font-size: base.$paragraph;
   }
   a:not(:last-of-type) {
     margin-bottom: 1rem;

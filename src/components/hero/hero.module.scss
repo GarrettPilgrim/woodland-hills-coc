@@ -1,0 +1,36 @@
+@use "../../styles/base.scss";
+
+.container {
+  align-items: center;
+  display: grid;
+  grid-template-areas: "cover";
+  grid-template-columns: 1fr;
+  justify-items: center;
+
+  img {
+    filter: blur(3px) opacity(0.8);
+    grid-area: cover;
+  }
+  .text {
+    backdrop-filter: blur(4px);
+    background: rgba($color: #ffffff, $alpha: 0.4);
+    box-shadow: base.$shadow;
+    border: base.$border-dark;
+    border-radius: 0.5rem;
+    color: base.$light;
+    grid-area: cover;
+    max-width: 118ch;
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      color: base.$dark;
+    }
+
+    button {
+      padding: 1rem;
+      cursor: pointer;
+    }
+  }
+}
