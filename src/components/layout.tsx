@@ -1,3 +1,4 @@
+import Footer from "./footer/Footer";
 import Nav from "./nav/Nav";
 
 type Props = {
@@ -9,6 +10,7 @@ export default function Layout({ children }: Props) {
     <>
       <Nav />
       <div>{children}</div>
+      <Footer />
     </>
   )
 }

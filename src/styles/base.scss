@@ -1,7 +1,8 @@
 $header-fonts: "Anton", serif;
 $body-fonts: "Noto Sans", sans-serif;
 
-$big-header: 6rem;
-$medium-header: 4rem;
-$small-header: 2rem;
+$big-header: clamp(3.2rem, 5vw + 1rem, 9.2rem);
+$medium-header: clamp(2.2rem, 5vw + 1rem, 5.2rem);
+$small-header: clamp(1.2rem, 5vw + 1rem, 2.2rem);
 $paragraph: 1.6rem;
+$button-font-size: 2rem;

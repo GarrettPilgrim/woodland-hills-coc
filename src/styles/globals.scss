@@ -17,7 +17,12 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: base.$header-fonts;
 }
 
@@ -34,8 +39,11 @@ h3 {
 }
 
 p {
+  max-width: 90ch;
   font-family: base.$body-fonts;
   font-size: base.$paragraph;
+  line-height: 180%;
+  margin-bottom: 2rem;
 }
 
 @media (prefers-color-scheme: dark) {

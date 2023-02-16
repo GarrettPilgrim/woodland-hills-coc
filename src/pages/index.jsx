@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Anton, Noto_Sans } from "@next/font/google";
-import { attributes, react as HomeContent } from "../content/home.md";
+import { attributes, react as HomeContent } from "../../content/home.md";
 import styles from "@/styles/Home.module.scss";
 import Layout from "@/components/layout";
 

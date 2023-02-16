@@ -1,0 +1,24 @@
+@use "../../styles/base.scss";
+
+.container {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: base.$body-fonts;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 100vw;
+  margin: 5rem 1rem;
+  gap: 4rem;
+  div {
+    max-width: 60ch;
+  }
+  a {
+    font-size: base.$paragraph;
+    display: block;
+  }
+  a:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+}

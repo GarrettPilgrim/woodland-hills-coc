@@ -1,7 +1,7 @@
 @use "../../styles/base.scss";
 
 .container {
-  font-size: base.$small-header;
+  font-size: base.$button-font-size;
   font-family: base.$header-fonts;
 
   nav {

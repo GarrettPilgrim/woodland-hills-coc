@@ -5,9 +5,9 @@ export default function Nav() {
   return(
     <div className={styles.container}>
       <nav>
-        <div>
+        <Link href="/">
           logo
-        </div>
+        </Link>
         <ul>
           <li>
             <Link href="/">Home</Link>
