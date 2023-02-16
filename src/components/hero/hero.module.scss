@@ -13,19 +13,19 @@
   }
   .text {
     backdrop-filter: blur(4px);
-    background: rgba($color: #ffffff, $alpha: 0.4);
+    background: base.$transparent-light;
     box-shadow: base.$shadow;
     border: base.$border-dark;
     border-radius: 0.5rem;
     color: base.$light;
     grid-area: cover;
-    max-width: 118ch;
     padding: 4rem 6rem;
     display: flex;
     flex-direction: column;
 
     p {
       color: base.$dark;
+      max-width: 50ch;
     }
 
     button {

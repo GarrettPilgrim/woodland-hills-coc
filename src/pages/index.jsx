@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Hero title={heading} image={image} alt={alt} subheading={subheading} />
+        <Hero heading={heading} image={image} alt={alt} subheading={subheading} />
         <HomeContent />
       </main>
     </Layout>

@@ -6,21 +6,35 @@
 
   nav {
     align-items: center;
-    background: base.$primary;
     display: flex;
     height: 60px;
     justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    padding: 0 2rem;
   }
 
   ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     list-style: none;
-    width: 50%;
+    width: 40%;
   }
 
   a {
     text-decoration: none;
     color: base.$light;
+    margin-left: 4rem;
+    padding: 0.5rem 1.6rem;
+    border-radius: 0.5rem;
+  }
+
+  a:hover {
+    color: base.$dark;
+  }
+  
+  .logo {
+    margin-left: 0;
   }
 }

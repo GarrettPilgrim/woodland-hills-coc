@@ -12,7 +12,7 @@ export default function Hero(props: any) {
       />
       <div className={styles.text}>
         <h1>
-          {props.title}
+          {props.heading}
         </h1>
         <p>
           {props.subheading}

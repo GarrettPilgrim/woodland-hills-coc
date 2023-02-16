@@ -14,6 +14,8 @@ $light: #ffffff;
 $primary: blue;
 $secondary: rgb(142, 142, 193);
 $accent: rgb(246, 131, 131);
+$transparent-light: rgba($color: $light, $alpha: 0.4);
+$transparent-dark: rgba($color: $dark, $alpha: 0.4);
 
 // Effects
 $shadow: -8px 12px 0px
