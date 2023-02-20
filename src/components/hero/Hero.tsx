@@ -7,8 +7,7 @@ export default function Hero(props: any) {
       <Image 
         src={props.image}
         alt=""
-        height={1216}
-        width={1830}
+        fill
       />
       <div className={styles.text}>
         <h1>

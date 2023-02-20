@@ -17,7 +17,7 @@
 
   ul {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     list-style: none;
     width: 40%;
   }
@@ -26,14 +26,14 @@
     text-decoration: none;
     color: base.$light;
     margin-left: 4rem;
-    padding: 0.5rem 1.6rem;
+    padding: 0.8rem;
     border-radius: 0.5rem;
   }
 
   a:hover {
     color: base.$dark;
   }
-  
+
   .logo {
     margin-left: 0;
   }
