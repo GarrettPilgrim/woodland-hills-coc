@@ -6,5 +6,8 @@ alt: This is image alt text for announcement
 coverimage: /images/uploads/announcement-image.jpg
 coveralt: This is image alt text for announcement
 text: Here is a brief description of the announcement
+button: "Click here"
+buttonurl: "/"
 ---
+
 This is an annoucement component

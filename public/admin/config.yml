@@ -9,10 +9,12 @@ collections:
     folder: "content/components"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sub-Heading", name: "subheading", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Alt Text", name: "alt", widget: "string" }
-      - { label: "Text", name: "text", widget: "markdown" }
+      - { label: "Sub-Heading", name: "subheading", widget: "string" required: false }
+      - { label: "Image", name: "image", widget: "image" required: false }
+      - { label: "Alt Text", name: "alt", widget: "string" required: false }
+      - { label: "Button", name: "button", widget: "string" required: false }
+      - { label: "ButtonURL", name: "buttonurl", widget: "string" required: false }
+      - { label: "Text", name: "text", widget: "markdown" required: false }
   - name: "pages"
     label: "Pages"
     files:
@@ -21,12 +23,12 @@ collections:
         file: "content/home.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Publish Date", name: "date", widget: "datetime" required: false }
           - { label: "Main Heading", name: "heading", widget: "string" }
-          - { label: "Sub-Heading", name: "subheading", widget: "string" }
-          - { label: "Cover Image", name: "image", widget: "image" }
-          - { label: "Alt Text", name: "alt", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Sub-Heading", name: "subheading", widget: "string" required: false }
+          - { label: "Cover Image", name: "image", widget: "image" required: false }
+          - { label: "Alt Text", name: "alt", widget: "string" required: false }
+          - { label: "Body", name: "body", widget: "markdown" required: false }
       - label: "About"
         name: "about"
         file: "content/about.md"
@@ -43,6 +45,6 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
-      - { label: "Audio", name: "audio-file", widget: "file" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" required: false }
+      - { label: "Audio", name: "audio-file", widget: "file" required: false }
       - { label: "Body", name: "body", widget: "markdown" }
