@@ -4,8 +4,8 @@ backend:
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 publish_mode: editorial_workflow
 collections:
-  - name: "Components"
-    label: "Components"
+  - label: "Components"
+    name: "components"
     folder: "_content/components"
     fields:
       - { label: "Title", name: "title", widget: "string" }
