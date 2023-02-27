@@ -7,10 +7,8 @@ collections:
   - name: "Components"
     label: "Components"
     folder: "_content/components"
-    identifier_field: heading
-    slug: "{{slug}}"
     fields:
-      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Sub-Heading", name: "subheading", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Alt Text", name: "alt", widget: "string" }
