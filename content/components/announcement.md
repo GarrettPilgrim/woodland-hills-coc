@@ -1,5 +1,5 @@
 ---
-title: This is a home page announcment
+title: I can change the text
 subheading: This is the text to go along with the announcement
 image: /images/uploads/announcement-image.jpg
 alt: This is image alt text for announcement
