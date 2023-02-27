@@ -1,6 +1,6 @@
 import styles from "./announcement.module.scss"
 import Image from "next/image"
-import { attributes, react as AnnouncementText } from "../../../content/components/announcement.md";
+import { attributes, react as AnnouncementText } from "@content/components/announcement.md";
 
 export default function Annoucement() {
   let { heading, subheading, backgroundimage, backgroundalt, coverimage, coveralt } = attributes;
