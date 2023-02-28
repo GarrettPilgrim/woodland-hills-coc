@@ -16,7 +16,7 @@ export default function Nav() {
             <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/sermons">Sermons</Link>
+            <Link href="/posts">Posts</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>
