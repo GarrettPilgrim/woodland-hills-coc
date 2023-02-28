@@ -5,14 +5,13 @@
   font-family: base.$header-fonts;
 
   nav {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
-    height: 60px;
     justify-content: space-between;
     position: fixed;
     width: 100vw;
     z-index: 1000;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   ul {
@@ -23,6 +22,7 @@
   }
 
   a {
+    display: block;
     text-decoration: none;
     color: base.$light;
     margin-left: 4rem;
@@ -36,5 +36,29 @@
 
   .logo {
     margin-left: 0;
+  }
+
+  .hamburger {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  @media (max-width: 40rem) {
+    .hamburger {
+      display: block;
+    }
+
+    ul {
+      position: relative;
+      right: -100%;
+      flex-direction: column;
+      background: black;
+    }
+
+    a {
+      margin: 0;
+    }
   }
 }
