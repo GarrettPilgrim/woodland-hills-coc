@@ -1,12 +1,15 @@
 import Layout from "@/components/layout";
-import { attributes, react as HomeContent } from "../../content/sermons.md";
+import { attributes, react as SermonContent } from "../../content/sermons.md";
+import Cover from "@/components/cover/cover"
+import PostFeed from "@/components/postFeed/postFeed"
 
 export default function Sermons() {
   let { title } = attributes;
   return (
     <Layout>
-      <h1>{title}</h1>
-      <HomeContent />
+      <Cover heading={title} />
+      <SermonContent />
+      <PostFeed />
     </Layout>
   );
 }
