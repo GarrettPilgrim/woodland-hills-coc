@@ -47,6 +47,18 @@ p {
   margin-bottom: 2rem;
 }
 
+a {
+  text-decoration: none;
+  font-size: base.$paragraph;
+  color: base.$light;
+  &:hover {
+    color: base.$secondary;
+  }
+  &:active {
+    color: base.$accent;
+  }
+}
+
 img {
   display: block;
   max-width: 100%;

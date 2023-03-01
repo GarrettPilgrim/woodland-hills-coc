@@ -20,7 +20,10 @@
     "react": "^17.0.0 || 18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.57.1",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "gray-matter": "^4.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",

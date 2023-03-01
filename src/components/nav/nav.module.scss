@@ -1,7 +1,6 @@
 @use "../../styles/base.scss";
 
 .container {
-  font-size: base.$button-font-size;
   font-family: base.$header-fonts;
 
   nav {
@@ -28,10 +27,13 @@
     margin-left: 4rem;
     padding: 0.8rem;
     border-radius: 0.5rem;
-  }
-
-  a:hover {
-    color: base.$dark;
+    font-size: base.$button-font-size;
+    &:hover {
+      color: base.$secondary;
+    }
+    &:active {
+      color: base.$accent;
+    }
   }
 
   .logo {
