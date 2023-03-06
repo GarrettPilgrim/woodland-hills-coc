@@ -5,20 +5,20 @@ import PostFeed from "@/components/postFeed/postFeed";
 import { getSortedProducts } from "../../lib/posts";
 
 export async function getStaticProps() {
-  const allProducts = getSortedProducts();
+  const allPosts = getSortedProducts();
   return {
     props: {
-      allProducts,
+      allPosts,
     },
   };
 }
 
-export default function Posts({ allProducts }) {
+export default function Posts({ allPosts }) {
   let { title } = attributes;
   return (
     <Layout>
       <Cover heading={title} />
-      <PostFeed props={allProducts} />
+      <PostFeed props={allPosts} />
       <Content />
     </Layout>
   );
