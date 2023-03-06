@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "./postCard.module.scss"
 
 export default function PostCard(props: any) {
-  let { image, alt, title, id, description } = props;
+  let { image, alt, title, id, description, date } = props;
     let placeImage = (image: string, alt: string) => {
       if (image && alt) {
         return <Image src={image} alt={alt} fill/>
@@ -15,6 +15,7 @@ export default function PostCard(props: any) {
       <div>
         <h2>{title}</h2>
         <p>{description}</p>
+        <p>{date}</p>
       </div>
     </Link>
   );

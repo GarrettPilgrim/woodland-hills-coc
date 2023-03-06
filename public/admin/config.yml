@@ -74,7 +74,12 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+        }
       - {
           label: "Featured Image",
           name: "thumbnail",
@@ -82,4 +87,5 @@ collections:
           required: false,
         }
       - { label: "Audio", name: "audio-file", widget: "file", required: false }
+      - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }

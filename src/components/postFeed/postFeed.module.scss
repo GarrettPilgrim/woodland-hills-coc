@@ -1,0 +1,13 @@
+@use "@/styles/base";
+
+.container {
+
+  section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 10rem 1rem;
+  }
+}
