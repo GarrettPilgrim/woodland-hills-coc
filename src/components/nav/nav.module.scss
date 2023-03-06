@@ -63,4 +63,17 @@
       margin: 0;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: base.$light;
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    a {
+      color: base.$dark;
+    }
+  }
+  
 }

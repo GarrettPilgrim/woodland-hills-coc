@@ -22,4 +22,18 @@
   a:not(:last-of-type) {
     margin-bottom: 1rem;
   }
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: base.$light;
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    a {
+      color: base.$dark;
+    }
+    a:hover {
+      color: base.$secondary;
+    }
+  }
 }
