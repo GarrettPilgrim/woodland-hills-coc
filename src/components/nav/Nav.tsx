@@ -2,9 +2,9 @@ import Link from "next/link"
 import Hamburger from "../hamburger/hamburger";
 import styles from "./nav.module.scss";
 
-let openBurger = () => {
-  addEventListener()
-}
+// let openBurger = () => {
+//   addEventListener()
+// }
 
 export default function Nav() {
   return(
