@@ -1,5 +1,6 @@
 import Layout from "../../components/layout";
 import { getAllProductIds, getProductData } from "../../../lib/posts";
+import PostLayout from "@/components/postLayout/postLayout";
 
 export async function getStaticProps({ params }: any) {
   const postData = await getProductData(params.id);
@@ -23,13 +24,13 @@ export default function Post(props: any) {
   let { postData } = props;
   return (
     <Layout>
-      <article>
+      <PostLayout>
         <h1>
           {postData.title}
         </h1>
         <div dangerouslySetInnerHTML={{__html: postData.contentHtml}}>
         </div>
-      </article>
+      </PostLayout>
     </Layout>
   );
 }
