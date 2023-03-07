@@ -2,4 +2,8 @@
 
 .container {
   padding-top: 5rem;
+  img {
+    display: block;
+    object-fit: cover;
+  }
 }

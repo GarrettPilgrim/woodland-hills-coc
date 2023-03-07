@@ -2,7 +2,7 @@
 layout: blog
 title: Test for Layout and Content
 date: 2023-03-07
-thumbnail: /images/uploads/willy-wonka.jpg
+image: /images/uploads/willy-wonka.jpg
 audio-file: /images/uploads/this-minimal-technology-pure-12327.mp3
 description: Let's see if the content works and how to best lay it out
 ---
