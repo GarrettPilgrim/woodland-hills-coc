@@ -33,8 +33,20 @@
     }
 
     button {
-      cursor: pointer;
       padding: 1rem;
+      display: block;
+      text-align: center;
+      font-size: base.$button-font-size;
+      background: base.$secondary;
+      padding: 1rem 3rem;
+      align-self: center;
+      border-radius: 0.5rem;
+      transition: base.$button-transition;
+      &:hover {
+        background: base.$light;
+        box-shadow: base.$shadow;
+        color: base.$secondary;
+      }
     }
   }
 }

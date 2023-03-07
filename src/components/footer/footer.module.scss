@@ -25,15 +25,18 @@
   @media (prefers-color-scheme: dark) {
     a {
       color: base.$light;
+      &:hover {
+        color: base.$secondary;
+      }
     }
   }
-  
+
   @media (prefers-color-scheme: light) {
     a {
       color: base.$dark;
-    }
-    a:hover {
-      color: base.$secondary;
+      &:hover {
+        color: base.$secondary;
+      }
     }
   }
 }

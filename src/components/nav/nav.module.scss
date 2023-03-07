@@ -28,8 +28,12 @@
     padding: 0.8rem;
     border-radius: 0.5rem;
     font-size: base.$button-font-size;
+    font-family: base.$header-fonts;
+    transition: base.$button-transition;
     &:hover {
       color: base.$secondary;
+      background: base.$light;
+      box-shadow: base.$shadow;
     }
     &:active {
       color: base.$accent;
@@ -69,11 +73,10 @@
       color: base.$light;
     }
   }
-  
+
   @media (prefers-color-scheme: light) {
     a {
       color: base.$dark;
     }
   }
-  
 }

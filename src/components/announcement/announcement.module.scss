@@ -4,7 +4,7 @@
   background: linear-gradient(
     135deg,
     rgba($color: base.$secondary, $alpha: 0.5) 10%,
-    rgba($color: base.$accent, $alpha: 0.6) 100%,
+    rgba($color: base.$accent, $alpha: 0.6) 100%
   );
   display: flex;
   flex-direction: column;
@@ -42,8 +42,18 @@
     max-width: 60ch;
   }
 
-  button {
-    cursor: pointer;
-    padding: 1rem;
+  a {
+    display: block;
+    text-align: center;
+    font-size: base.$button-font-size;
+    background: base.$secondary;
+    padding: 1rem 3rem;
+    align-self: center;
+    border-radius: 0.5rem;
+    transition: base.$button-transition;
+    &:hover {
+      background: base.$light;
+      box-shadow: base.$shadow;
+    }
   }
 }
