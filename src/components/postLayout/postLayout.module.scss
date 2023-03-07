@@ -3,7 +3,13 @@
 .container {
   padding-top: 5rem;
   img {
-    display: block;
     object-fit: cover;
+  }
+  .imageContainer {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    overflow: hidden;
   }
 }

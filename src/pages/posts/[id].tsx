@@ -2,6 +2,7 @@ import Layout from "../../components/layout";
 import { getAllProductIds, getProductData } from "../../../lib/posts";
 import PostLayout from "@/components/postLayout/postLayout";
 import Image from "next/image";
+import styles from "@/styles/posts.module.scss"
 
 export async function getStaticProps({ params }: any) {
   const postData = await getProductData(params.id);
@@ -23,11 +24,13 @@ export async function getStaticPaths() {
 const imageCheck = (image: any) => {
   if(image) {
     return (
-      <Image
-        src={image}
-        alt=""
-        fill
-      />
+      <div className={styles.imageContainer}>
+        <Image
+          src={image}
+          alt=""
+          fill
+        />
+      </div>
     )
   }
   return "";
@@ -36,7 +39,9 @@ const imageCheck = (image: any) => {
 const audioCheck = (audio: any) => {
   if(audio) {
     return (
-      <audio controls src={audio}></audio>
+      <figure>
+        <audio controls src={audio}></audio>
+      </figure>
     )
   }
 }
@@ -46,15 +51,17 @@ export default function Post(props: any) {
   console.log(postData.image)
   return (
     <Layout>
-      <PostLayout>
+      <div className={styles.container}>
         {imageCheck(postData.image)}
-        <h1>
-          {postData.title}
-        </h1>
-        {audioCheck(postData.audiofile)}
-        <div dangerouslySetInnerHTML={{__html: postData.contentHtml}}>
+        <div className={styles.textContainer}>
+          <h1>
+            {postData.title}
+          </h1>
+          {audioCheck(postData.audiofile)}
+          <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} className={styles.content}>
+          </div>
         </div>
-      </PostLayout>
+      </div>
     </Layout>
   );
 }
