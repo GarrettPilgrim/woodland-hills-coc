@@ -1,0 +1,11 @@
+[
+  {
+    "last_name": "Last",
+    "first_names": ["FirstOne", "FirstTwo"],
+    "address": "0000 Street Name, City, State, Zip",
+    "phone_numbers": [],
+    "email": "",
+    "image": "",
+    "birthday": ""
+  }
+]
