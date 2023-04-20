@@ -20,6 +20,6 @@
       "@content/*": ["./content/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/index.jsx", "src/pages/about.jsx", "src/components/announcement/Announcement.jsx", "src/components/postFeed/postFeed.jsx", "src/components/postCard/postCard.tsx", "src/utils/session.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/index.jsx", "src/pages/about.jsx", "src/components/announcement/Announcement.jsx", "src/components/postFeed/postFeed.tsx", "src/components/postCard/postCard.tsx", "src/utils/session.js"],
   "exclude": ["node_modules"]
 }
