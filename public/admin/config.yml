@@ -91,10 +91,12 @@ collections:
           widget: "string",
           required: false,
         }
-      - { label: "Text", name: "text", widget: "markdown", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - label: "Staff"
     name: "staff"
     folder: "content/staff"
+    create: true # Allow users to create new documents in this collection
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Title", name: "title", widget: "string", required: false }
