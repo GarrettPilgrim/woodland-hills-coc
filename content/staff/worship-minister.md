@@ -15,4 +15,6 @@ text: "Dennis started leading the singing portion of worship services at
   Christian in Oklahoma City, where he received his B.A. in Religion/Business.
   He and his wife Annette have four children: Casey, Amanda, Daniel, and
   Nicholas. Dennis and Annette love to travel."
+phone: (901) 755-7709 ext. 100
+email: info@woodlandhillschurch.com
 ---
