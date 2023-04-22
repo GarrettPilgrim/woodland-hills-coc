@@ -22,8 +22,15 @@ export default function About({ allStaff }) {
       <h2>Ministers</h2>
       <h2>Elders</h2>
       <h2>Deacons</h2>
-      {allStaff.map(({ id, name, title, description }) => (
-        <StaffCard key={id} name={name} title={title} description={description} />
+      {allStaff.map(({ id, name, title, description, image, alt }) => (
+        <StaffCard
+          key={id}
+          name={name}
+          title={title}
+          description={description}
+          image={image}
+          alt={alt}
+        />
       ))}
     </Layout>
   );
