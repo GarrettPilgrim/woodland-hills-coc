@@ -18,6 +18,14 @@ export default function StaffCard(props: any) {
           <span>{props.title}</span>
         </h2>
         <p>{props.text}</p>
+        <div>
+          <a href={"mailto:" + props.email}>
+            {props.email}
+          </a>
+          <p>
+            {props.phone}
+          </p>
+        </div>
       </div>
     </div>
   )

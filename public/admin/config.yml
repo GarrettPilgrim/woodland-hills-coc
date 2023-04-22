@@ -97,13 +97,9 @@ collections:
     folder: "content/staff"
     fields:
       - { label: "Name", name: "name", widget: "string" }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          required: false,
-        }
+      - { label: "Title", name: "title", widget: "string", required: false }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Alt Text", name: "alt", widget: "string", required: false }
       - { label: "Text", name: "text", widget: "markdown", required: false }
-      
+      - { label: "Phone", name: "phone", widget: "string", required: false }
+      - { label: "Email", name: "email", widget: "string", required: false }

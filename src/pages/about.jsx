@@ -19,11 +19,13 @@ export default function About({ allStaff }) {
     <Layout>
       <Cover heading={title} />
       <AboutContent />
-      {allStaff.map(({ id, name, title, text, image, alt }) => (
+      {allStaff.map(({ id, name, title, email, phone, text, image, alt }) => (
         <StaffCard
           key={id}
           name={name}
           title={title}
+          email={email}
+          phone={phone}
           text={text}
           image={image}
           alt={alt}
