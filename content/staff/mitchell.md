@@ -1,7 +1,6 @@
 ---
 name: Matt Mitchell
 title: Minister
-description: Test of a description
 image: /uploads/matt-mitchell.jpg
 alt: A smiling portrait of Woodland Hill's minister, Matt Mitchell
 text: Matt started working at Woodland Hills in May of 2013, but he is no

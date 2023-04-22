@@ -19,15 +19,12 @@ export default function About({ allStaff }) {
     <Layout>
       <Cover heading={title} />
       <AboutContent />
-      <h2>Ministers</h2>
-      <h2>Elders</h2>
-      <h2>Deacons</h2>
-      {allStaff.map(({ id, name, title, description, image, alt }) => (
+      {allStaff.map(({ id, name, title, text, image, alt }) => (
         <StaffCard
           key={id}
           name={name}
           title={title}
-          description={description}
+          text={text}
           image={image}
           alt={alt}
         />
