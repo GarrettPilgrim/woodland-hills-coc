@@ -1,22 +1,24 @@
 import Link from "next/link"
 import Hamburger from "../hamburger/hamburger";
 import styles from "./nav.module.scss";
-
-// let openBurger = () => {
-//   addEventListener()
-// }
+import { useState } from "react";
 
 export default function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  }
   return(
     <div className={styles.container}>
       <nav>
         <Link href="/" className={styles.logo}>
           WHCHURCH
         </Link>
-          <div className={styles.hamburger}>
-            <Hamburger />
+          <div className={styles.hamburger} onClick={handleClick}>
+            <Hamburger isOpen={isOpen} onClick={handleClick} />
           </div>
-          <ul>
+          <ul className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
             <li>
               <Link href="/">Home</Link>
             </li>

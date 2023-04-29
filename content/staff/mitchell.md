@@ -15,4 +15,5 @@ text: >-
   At Woodland Hills, he has worked as a young adult intern, young adult minister, and family minister. He began working as the pulpit minister in July of 2022. He considers Woodland Hills his home. Matt has a B.A. Bible from Freed-Hardeman University and is currently enrolled in the M.Div. program at Harding School of Theology. He loves golf, fishing, and all things Memphis.
 phone: (901) 755-7709 ext. 101
 email: mmitchell@woodlandhillschurch.com
+order: 1
 ---

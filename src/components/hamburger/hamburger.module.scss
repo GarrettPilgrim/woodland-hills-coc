@@ -1,6 +1,13 @@
 .container {
+  position: relative;
   background: transparent;
   border: none;
   cursor: pointer;
   padding: .2rem .4rem;
+  z-index: 100;
+  margin: 1rem 1rem 0 0;
+}
+
+.open {
+  background-color: white;
 }

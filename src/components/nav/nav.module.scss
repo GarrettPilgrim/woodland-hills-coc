@@ -9,15 +9,16 @@
     justify-content: space-between;
     position: fixed;
     width: 100vw;
+    height: 50px;
     z-index: 1000;
-    padding: 0 1rem;
   }
 
-  ul {
+  .menu {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     width: 40%;
+    margin: 1rem 1rem 0 0;
   }
 
   a {
@@ -41,30 +42,45 @@
   }
 
   .logo {
-    margin-left: 0;
+    margin: 1rem 0 0 1rem;
+    position: relative;
+    z-index: 100;
   }
 
   .hamburger {
     display: none;
-    position: absolute;
+    position: relative;
     top: 1rem;
     right: 1rem;
   }
 
+  
   @media (max-width: 40rem) {
     .hamburger {
       display: block;
     }
-
-    ul {
-      position: relative;
-      right: -100%;
+    
+    .menu {
+      position: absolute;
+      transform: translateX(100%);
       flex-direction: column;
-      background: black;
+      background: base.$transparent-dark;
+      width: 100vw;
+      height: 100vh;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding-top: 60px;
+      transition: base.$mobile-transition;
+      margin: 0;
+    }
+    
+    .open {
+      transform: translateX(0%);
     }
 
     a {
-      margin: 0;
+      margin: 10px;
+      text-align: center;
     }
   }
 

@@ -17,4 +17,5 @@ text: "Dennis started leading the singing portion of worship services at
   Nicholas. Dennis and Annette love to travel."
 phone: (901) 755-7709 ext. 100
 email: info@woodlandhillschurch.com
+order: 2
 ---
