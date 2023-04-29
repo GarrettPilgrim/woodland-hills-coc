@@ -57,3 +57,11 @@
     }
   }
 }
+
+@media (max-width: 40rem) {
+  .container {
+    .image {
+      height: 32rem;
+    }
+  }
+}
