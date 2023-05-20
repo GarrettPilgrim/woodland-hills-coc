@@ -71,6 +71,12 @@ img {
   height: auto;
 }
 
+
+.main-content {
+  max-width: 90ch;
+  margin: auto;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;

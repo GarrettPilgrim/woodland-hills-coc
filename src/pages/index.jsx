@@ -4,7 +4,7 @@ import { attributes, react as HomeContent } from "@content/home.md";
 import styles from "@/styles/Home.module.scss";
 import Layout from "@/components/layout";
 import Hero from "@/components/hero/Hero";
-import Annoucement from "@/components/announcement/Announcement";
+import Announcement from "@/components/announcement/Announcement";
 
 const anton = Anton({
   weight: "400",
@@ -17,7 +17,7 @@ const noto_sans = Noto_Sans({
 });
 
 export default function Home() {
-  let { title, heading, subheading, image, alt } = attributes;
+  let { title, heading, subheading, image, alt, buttonURL } = attributes;
   return (
     <Layout>
       <Head>
@@ -27,9 +27,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Hero heading={heading} image={image} alt={alt} subheading={subheading} />
+        <Hero heading={heading} image={image} alt={alt} subheading={subheading} link={buttonURL} />
         <HomeContent />
-        <Annoucement />
+        <Announcement />
       </main>
     </Layout>
   );

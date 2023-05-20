@@ -7,8 +7,9 @@ export default function Contact() {
   let { title } = attributes;
   return (
     <Layout>
-      <Cover heading={title} />
-      <HomeContent />
+      <Cover heading={title}>
+        <HomeContent />
+      </Cover>
       <ContactForm />
     </Layout>
   );

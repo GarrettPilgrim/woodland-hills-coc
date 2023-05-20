@@ -16,11 +16,15 @@
     max-width: 60ch;
   }
   a {
-    display: block;
     font-size: base.$paragraph;
   }
   a:not(:last-of-type) {
     margin-bottom: 1rem;
+  }
+
+  address {
+    display: flex;
+    flex-direction: column;
   }
   @media (prefers-color-scheme: dark) {
     a {

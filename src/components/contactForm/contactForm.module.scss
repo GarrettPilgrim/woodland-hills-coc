@@ -59,6 +59,10 @@
     min-height: 35rem;
     max-width: 100%;
   }
+
+  button {
+    height: 5rem;
+  }
 }
 
 @media (max-width: base.$mobile-breakpoint) {

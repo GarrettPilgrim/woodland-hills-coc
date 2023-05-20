@@ -12,7 +12,7 @@ export default function Footer() {
           rel="noreferrer noopener"
         >
           10011 Woodland Hills Drive
-          Cordova, TN 38018
+          <br/>Cordova, TN 38018
         </a>
         <a href="mailto:info@woodlandhillschurch.com">info@woodlandhillschurch.com</a>
         <a href="tel:+19017557709">901-755-7709</a>
