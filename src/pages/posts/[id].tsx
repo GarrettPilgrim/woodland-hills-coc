@@ -49,7 +49,7 @@ const audioCheck = (audio: any) => {
 const youtubeCheck = (youtube: string) => {
   if(youtube) {
     return (
-      <iframe width="100%" height="415" src={youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="100%" height="415" src={youtube} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     )
   }
 }
