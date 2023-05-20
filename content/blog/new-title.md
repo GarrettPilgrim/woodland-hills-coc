@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Wednesday Bible Study
+title: Wednesday Bible Study - May 17th
 date: 2023-05-17
 youtube: https://www.youtube.com/embed/J4VBc4lyyz4
-description: May 17th Wednesday Bible class
+description: Wednesday Bible Study - May 17th
 ---
-May 17th Wednesday Bible class
+Wednesday Bible Study - May 17th
