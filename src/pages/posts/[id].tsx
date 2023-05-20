@@ -46,6 +46,14 @@ const audioCheck = (audio: any) => {
   }
 }
 
+const youtubeCheck = (youtube: string) => {
+  if(youtube) {
+    return (
+      <iframe width="100%" height="415" src={youtube} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+    )
+  }
+}
+
 export default function Post(props: any) {
   let { postData } = props;
   console.log(postData.image)
@@ -57,6 +65,7 @@ export default function Post(props: any) {
           <h1>
             {postData.title}
           </h1>
+          {youtubeCheck(postData.youtube)}
           {audioCheck(postData.audiofile)}
           <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} className={styles.content}>
           </div>
