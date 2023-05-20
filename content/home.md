@@ -5,4 +5,5 @@ subheading: Find friendly faces, loving neighbors, and imperfect Christians tryi
 image: /images/wh-cover-photo.jpg
 alt: Alternate text
 date: 2019-03-17T19:31:20.591Z
+buttonURL: /posts
 ---

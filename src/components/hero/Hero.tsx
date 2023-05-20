@@ -16,7 +16,7 @@ export default function Hero(props: any) {
         <p>
           {props.subheading}
         </p>
-        <button>Learn More</button>
+        <a href={props.link}>Learn More</a>
       </div>
     </header>
   )

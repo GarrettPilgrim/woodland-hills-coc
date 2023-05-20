@@ -18,7 +18,7 @@ export default function About({ allStaff }) {
   return (
     <Layout>
       <Cover heading={title} />
-      <AboutContent />
+      <AboutContent className="main-content" />
       {allStaff.map(({ id, name, title, email, phone, text, image, alt }) => (
         <StaffCard
           key={id}
