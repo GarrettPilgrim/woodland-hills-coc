@@ -14,11 +14,11 @@ export default function ContactForm () {
         <fieldset>
           <label htmlFor="name">
             Name:
-            <input id="name" name="name" type="text" />
+            <input id="name" name="name" type="text" required />
           </label>
           <label htmlFor="email">
             Email:
-            <input id="email" name="email" type="email" />
+            <input id="email" name="email" type="email" required />
           </label>
           <label htmlFor="phone">
             Phone Number:
