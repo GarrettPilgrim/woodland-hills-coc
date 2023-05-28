@@ -1,20 +1,9 @@
 import Head from "next/head";
-import { Anton, Noto_Sans } from "@next/font/google";
 import { attributes, react as HomeContent } from "@content/home.md";
 import styles from "@/styles/Home.module.scss";
 import Layout from "@/components/layout";
 import Hero from "@/components/hero/Hero";
 import Announcement from "@/components/announcement/Announcement";
-
-const anton = Anton({
-  weight: "400",
-  subsets: ["latin"],
-});
-
-const noto_sans = Noto_Sans({
-  weight: "300",
-  subsets: ["latin"],
-});
 
 export default function Home() {
   let { title, heading, subheading, image, alt, buttonURL } = attributes;
