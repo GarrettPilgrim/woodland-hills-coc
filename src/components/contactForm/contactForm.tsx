@@ -3,7 +3,7 @@ import styles from "./contactForm.module.scss";
 export default function ContactForm () {
   return(
     <div className={styles.container}>
-      <form name="contact" action="/" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <form name="contact" action="/success" method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="wh-contact-form" value="contact" />
         <div className={styles.hidden}>
           <label>
