@@ -22,6 +22,15 @@
     margin-bottom: 1rem;
   }
 
+  ul {
+    font-size: base.$paragraph;
+    list-style: circle inside;
+  }
+
+  h3 {
+    margin-bottom: 1.6rem;
+  }
+  
   address {
     display: flex;
     flex-direction: column;
