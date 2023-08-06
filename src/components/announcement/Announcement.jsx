@@ -15,12 +15,20 @@ export default function Annoucement() {
     }
   };
 
-  return (
-    <div className={styles.container}>
-      <div className={styles.text}>
+  let DisplayImage = (image, alt) => {
+    if (image && alt) {
+      return (
         <div className={styles.image}>
           <Image src={image} alt={alt} fill />
         </div>
+      );
+    }
+  };
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.text}>
+        {DisplayImage(image, alt)}
         <h2>
           {title}
           <br />
