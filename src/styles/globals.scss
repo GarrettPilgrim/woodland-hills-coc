@@ -1,5 +1,5 @@
 @use "base";
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -47,6 +47,7 @@ p {
   margin-bottom: 2rem;
 }
 
+
 a {
   font-family: base.$body-fonts;
   text-decoration: none;
@@ -71,7 +72,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 
 .main-content {
   max-width: 90ch;
