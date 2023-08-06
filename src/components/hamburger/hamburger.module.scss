@@ -12,8 +12,15 @@
   svg {
     fill: base.$light;
   }
+
+  @media (prefers-color-scheme: light) {
+    svg {
+      fill: base.$dark;
+    }
+  }
 }
 
 .open {
   background-color: white;
+  
 }
