@@ -1,11 +1,10 @@
 ---
-subheading: June 11-14, 6:30pm
-alt: A bubble VBS logo with the text "Miracles of Jesus"
+subheading: Join us in-person or online
+alt: ""
 coveralt: This is image alt text for announcement
-title: Make your plans and pre-register for VBS!
-image: 
-button: Register Today
-buttonurl: https://form.123formbuilder.com/6411663/vbs-2023
+title: Watch Our Worship Services!
+image: null
+button: Watch on YouTube
+buttonurl: https://www.youtube.com/@woodlandhillschurchofchrist-co/streams
 ---
-
-VBS is almost here! Pre-register your children today to confirm their spots.
+We live stream our services on YouTube! Join us online during our regular worship times or watch our prior services.
