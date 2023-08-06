@@ -11,10 +11,17 @@
     margin: auto;
     h1 {
       margin-top: 3.5rem;
+      margin-bottom: 3.5rem;
     }
     iframe {
       margin: 2rem 0;
     }
+    ul,
+  li {
+    font-size: base.$paragraph;
+    font-family: base.$body-fonts;
+    list-style: circle inside;
+  }
   }
 
   .imageContainer {
