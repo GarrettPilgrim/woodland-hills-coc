@@ -28,7 +28,6 @@
     padding: calc(2rem + 5vh) calc(0.2rem + 6vw);
 
     p {
-      color: base.$dark;
       max-width: 60ch;
     }
 
@@ -47,6 +46,12 @@
         box-shadow: base.$shadow;
         color: base.$secondary;
       }
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .text {
+      background: base.$transparent-dark;
     }
   }
 }

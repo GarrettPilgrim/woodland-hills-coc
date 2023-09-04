@@ -17,10 +17,13 @@
     svg {
       fill: base.$dark;
     }
+    
   }
 }
 
 .open {
   background-color: white;
-  
+  svg {
+    fill: base.$dark;
+  }
 }

@@ -63,10 +63,15 @@
   button {
     height: 5rem;
   }
+
+  @media (prefers-color-scheme: light) {
+    form {
+      background: base.$transparent-dark;
+    }
+  }
+
+  @media (max-width: base.$mobile-breakpoint) {
+      grid-template-columns: 1fr;
+    }
 }
 
-@media (max-width: base.$mobile-breakpoint) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-}
