@@ -56,10 +56,14 @@
       box-shadow: base.$shadow;
     }
   }
-}
 
-@media (max-width: 40rem) {
-  .container {
+  @media (prefers-color-scheme: light) {
+    .text {
+      background: base.$transparent-dark;
+    }
+  }
+
+  @media (max-width: 40rem) {
     .image {
       height: 32rem;
     }
