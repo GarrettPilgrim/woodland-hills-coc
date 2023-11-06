@@ -12,4 +12,5 @@ text: >-
 
 
   Jacob has done multiple youth ministry internships in Nashville, Tennessee and Conyers, Georgia. He is always seeking ways to improve his God-given talents to strengthen and grow the Lord's kingdom. He is an avid board game fanatic, but also enjoys video games and movies.
+order: 3
 ---
