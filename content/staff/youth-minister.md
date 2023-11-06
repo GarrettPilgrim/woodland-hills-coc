@@ -1,7 +1,7 @@
 ---
 name: Jacob Smith
 title: Youth Minister
-image: /uploads/img_20231105_144831.png
+image: /uploads/jacob-smith-headshot.png
 alt: A headeshot image of a young man smiling
 text: >-
   Jacob started working as the Woodland Hills youth and family minister in May
