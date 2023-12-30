@@ -49,7 +49,9 @@ const audioCheck = (audio: any) => {
 const codeCheck = (code: any) => {
   if(code) {
     // return <div dangerouslySetInnerHTML={{__html: code}}></div>;
-    return <div dangerouslySetInnerHTML={{__html: code}}></div>;
+    return (
+      <div dangerouslySetInnerHTML={{__html: code}}></div>
+    )
   }
 }
 
