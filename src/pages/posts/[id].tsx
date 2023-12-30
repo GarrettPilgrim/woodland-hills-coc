@@ -48,7 +48,8 @@ const audioCheck = (audio: any) => {
 
 const codeCheck = (code: any) => {
   if(code) {
-    return code;
+    // return <div dangerouslySetInnerHTML={{__html: code}}></div>;
+    return <div dangerouslySetInnerHTML={{__html: code}}></div>;
   }
 }
 
@@ -73,7 +74,7 @@ export default function Post(props: any) {
           </h1>
           {youtubeCheck(postData.youtube)}
           {audioCheck(postData.audiofile)}
-          {codeCheck(postData.code)}
+          {codeCheck(postData.code.code)}
           <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} className={styles.content}>
           </div>
         </div>
