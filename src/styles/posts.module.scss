@@ -17,11 +17,14 @@
       margin: 2rem 0;
     }
     ul,
-  li {
-    font-size: base.$paragraph;
-    font-family: base.$body-fonts;
-    list-style: circle inside;
-  }
+    li {
+      font-size: base.$paragraph;
+      font-family: base.$body-fonts;
+      list-style: circle inside;
+    }
+    audio {
+      margin-top: 0;
+    }
   }
 
   .imageContainer {
