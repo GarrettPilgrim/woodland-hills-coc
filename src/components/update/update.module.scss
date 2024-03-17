@@ -1,0 +1,54 @@
+@use "../../styles/base.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 1rem;
+  .text {
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .image {
+    position: relative;
+    height: 60rem;
+    max-width: 100%;
+  }
+
+  img {
+    object-fit: contain;
+  }
+
+  span {
+    font-size: 50%;
+  }
+
+  p {
+    max-width: 60ch;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    font-size: base.$button-font-size;
+    background: base.$secondary;
+    padding: 1rem 3rem;
+    align-self: center;
+    border-radius: 0.5rem;
+    transition: base.$button-transition;
+    &:hover {
+      background: base.$light;
+      box-shadow: base.$shadow;
+    }
+  }
+
+  @media (max-width: 40rem) {
+    .image {
+      height: 32rem;
+    }
+  }
+}
