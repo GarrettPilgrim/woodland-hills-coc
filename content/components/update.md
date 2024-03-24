@@ -4,8 +4,9 @@ alt: ""
 coveralt: This is image alt text for announcement
 title: Hop on Over to Our Easter Egg Hunt!
 image: null
-button:
-buttonurl:
+button: null
+buttonurl: null
 ---
+Bring your whole family and enjoy food, fun, and fellowship. We'll have lunch, inflatables, and an Easter Egg hunt!
 
-Bring your whole family and enjoy food, fun, and fellowship. Rain or shine, we'd love to see you there!
+Rain or shine, we'd love to see you there!
