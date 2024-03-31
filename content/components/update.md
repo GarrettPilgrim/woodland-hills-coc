@@ -1,12 +1,10 @@
 ---
-subheading: March 30th at 11am
+subheading: June 9th - 12th
 alt: ""
 coveralt: This is image alt text for announcement
-title: Hop on Over to Our Easter Egg Hunt!
+title: Register for VBS!
 image: null
-button: null
-buttonurl: null
+button: Register Today!
+buttonurl: https://form.123formbuilder.com/6631293/vbs-2024
 ---
-Bring your whole family and enjoy food, fun, and fellowship. We'll have lunch, inflatables, and an Easter Egg hunt!
-
-Rain or shine, we'd love to see you there!
+You can register your family for VBS at Woodland Hills Church of Christ today!
