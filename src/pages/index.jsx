@@ -4,7 +4,7 @@ import styles from "@/styles/Home.module.scss";
 import Layout from "@/components/layout";
 import Hero from "@/components/hero/Hero";
 import Announcement from "@/components/announcement/Announcement";
-import Update from "@/components/update/Update";
+// import Update from "@/components/update/Update";
 
 export default function Home() {
   let { title, heading, subheading, image, alt, buttonURL } = attributes;
@@ -17,9 +17,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Hero heading={heading} image={image} alt={alt} subheading={subheading} link={buttonURL} />
+        <Hero
+          heading={heading}
+          image={image}
+          alt={alt}
+          subheading={subheading}
+          link={buttonURL}
+        />
         <HomeContent />
-        <Update />
+        {/* <Update /> */}
         <Announcement />
       </main>
     </Layout>
