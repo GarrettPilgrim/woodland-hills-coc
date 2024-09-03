@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.scss";
 import Layout from "@/components/layout";
 import Hero from "@/components/hero/Hero";
 import Announcement from "@/components/announcement/Announcement";
+import Update from "@/components/update/Update";
 // import Update from "@/components/update/Update";
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
           link={buttonURL}
         />
         <HomeContent />
-        {/* <Update /> */}
+        <Update />
         <Announcement />
       </main>
     </Layout>
