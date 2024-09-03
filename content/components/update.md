@@ -1,9 +1,9 @@
 ---
-subheading: September 28th at 9:00 - 12:30
-alt: ""
+subheading: September 28th from 9:00 am - 12:30 pm
+alt: woodland hills ladies day about Psalm 46:1-3
 coveralt: This is image alt text for announcement
 title: Join Us for Our Ladies Day!
-image: null
+image: /uploads/wh-ladies-day-2024.png
 button: Register Today
 buttonurl: https://form.123formbuilder.com/6347944/online-event-registration-form
 ---
