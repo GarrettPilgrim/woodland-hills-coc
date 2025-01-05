@@ -6,9 +6,9 @@ export default function Footer() {
       <div>
         <h3>Service Times</h3>
         <ul>
-          <li>Sunday Bible Study: 9 AM</li>
-          <li>Sunday Morning Worship: 10 AM</li>
-          <li>Sunday Evening Worship: 5 PM</li>
+          <li>Sunday Fellowship and Prayer: 9 AM</li>
+          <li>Sunday Bible Class: 9:30 AM</li>
+          <li>Sunday Worship: 10:30 AM</li>
           <li>Wednesday Bible Class: 7 PM</li>
         </ul>
         <p>*No PM Worship on 3rd Sundays</p>
