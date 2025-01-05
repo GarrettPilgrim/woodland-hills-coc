@@ -11,7 +11,6 @@ export default function Footer() {
           <li>Sunday Worship: 10:30 AM</li>
           <li>Wednesday Bible Class: 7 PM</li>
         </ul>
-        <p>*No PM Worship on 3rd Sundays</p>
         <p>You are invited to come study the Bible and worship with us. You are always welcome!</p>
       </div>
       <div>
